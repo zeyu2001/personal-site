@@ -2,7 +2,7 @@
   "name": "zeyu-personal-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zeyu2001.com",
+  "homepage": "https://www.zeyu2001.com",
   "dependencies": {
     "bootstrap": "^5.1.3",
     "react": "^17.0.2",
