@@ -1,5 +1,21 @@
 import { Row, Col, Image, Container } from 'react-bootstrap';
 
+const ImgCol = ({url, imgSrc, caption, size}) => {
+    return (
+        <Col xs={12} sm={size} md={size} className="justify-content-center d-flex flex-column">
+            <a href={url} target="_blank" rel="noopener noreferrer">
+                <div className="img-col-div">
+                    <Image 
+                        className="mx-auto d-block"
+                        src={imgSrc} fluid width="80%"
+                    />
+                </div>
+                <p align="center">{caption}</p>
+            </a>
+        </Col>
+    )
+}
+
 const Security = () => {
     return (
         <>
@@ -28,34 +44,10 @@ const Security = () => {
                 </div>
                 <hr/>
                 <Row className="justify-content-center">
-                    <Col xs={12} sm={3} md={3} className="justify-content-center d-flex flex-column">
-                        <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
-                        <Image
-                            className="mx-auto d-block" 
-                            src="./img/Node.png" fluid width="80%"/>
-                        </a>
-                    </Col>
-                    <Col xs={12} sm={3} md={3} className="justify-content-center d-flex flex-column">
-                        <a href="https://upchieve.org/" target="_blank" rel="noopener noreferrer">
-                        <Image 
-                            className="mx-auto d-block"
-                            src="./img/UPchieve.png" fluid width="80%"/>
-                        </a>
-                    </Col>
-                    <Col xs={12} sm={3} md={3} className="justify-content-center d-flex flex-column">
-                        <a href="https://www.drugs.com/" target="_blank" rel="noopener noreferrer">
-                        <Image
-                            className="mx-auto d-block" 
-                            src="./img/Drugs.png" fluid width="80%"/>
-                        </a>
-                    </Col>
-                    <Col xs={12} sm={3} md={3} className="justify-content-center d-flex flex-column">
-                        <a href="https://www.cedars-sinai.org/" target="_blank" rel="noopener noreferrer">
-                        <Image
-                            className="mx-auto d-block" 
-                            src="./img/Cedars-Sinai.png" fluid width="80%"/>
-                        </a>
-                    </Col>
+                    <ImgCol size="3" url="https://nodejs.org/en/" imgSrc="./img/Node.png" caption="Node.js"/>
+                    <ImgCol size="3" url="https://upchieve.org/" imgSrc="./img/UPchieve.png" caption="UPchieve"/>
+                    <ImgCol size="3" url="https://www.drugs.com/" imgSrc="./img/Drugs.png" caption="Drugs.com"/>
+                    <ImgCol size="3" url="https://www.cedars-sinai.org/" imgSrc="./img/Cedars-Sinai.png" caption="Cedars Sinai"/>
                 </Row>
             </Container>
             <Container className="my-5">
@@ -130,20 +122,10 @@ const Security = () => {
                 <h2 align="center" className='glow'>Certifications</h2>
                 <hr/>
                 <Row className="justify-content-center">
-                    <Col xs={12} sm={3} md={3} className="justify-content-center d-flex flex-column">
-                        <a href="https://www.credly.com/badges/068acdbc-1143-4cff-9cbc-c456ade5ba2b" target="_blank" rel="noopener noreferrer">
-                        <Image
-                            className="mx-auto d-block" 
-                            src="./img/OSCP.png" fluid width="80%"/>
-                        </a>
-                    </Col>
-                    <Col xs={12} sm={3} md={3} className="justify-content-center d-flex flex-column">
-                        <a href="https://portswigger.net/web-security/e/c/8dccc9f64c35e1e1" target="_blank" rel="noopener noreferrer">
-                        <Image 
-                            className="mx-auto d-block"
-                            src="./img/BSCP.png" fluid width="80%"/>
-                        </a>
-                    </Col>
+                    <ImgCol size="3" url="https://www.credly.com/badges/068acdbc-1143-4cff-9cbc-c456ade5ba2b" imgSrc="./img/OSCP.png" 
+                        caption="Offensive Security Certified Professional"/>
+                    <ImgCol size="3" url="https://portswigger.net/web-security/e/c/8dccc9f64c35e1e1" imgSrc="./img/BSCP.png" 
+                        caption="Burp Suite Certified Practitioner"/>
                 </Row>
             </Container>
         </Container>

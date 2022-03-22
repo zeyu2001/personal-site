@@ -11,12 +11,15 @@ import About from "./components/About";
 import Security from "./components/Security";
 import Software from "./components/Software";
 import NavBar from "./components/Nav";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   let location = useLocation();
 
   return (
     <>
+      <ScrollToTop />
+
       <NavBar />
       <div className="App">
         <TransitionGroup>

@@ -4,6 +4,8 @@
 		<link rel="icon" href="favicon.ico" type="image/png">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Zhang Zeyu's personal website.">
+
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 		<title>Zhang Zeyu</title>
 
@@ -31,8 +33,26 @@
 			}(window.location))
 		</script>
 		<!-- End Single Page Apps for GitHub Pages -->
+
+		<!-- Start Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-H845GDZ34D"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-H845GDZ34D');
+		</script>
+		<!-- End Global site tag (gtag.js) - Google Analytics -->
 	</head>
 	<body>
 		<main id="root"></main>
 	</body>
+	<footer>
+		<span>&copy; <span id="copyrightYear"></span> Zhang Zeyu</span>
+	</footer>
+	<script>
+		// This script is used to dynamically update the copyright year.
+		document.getElementById('copyrightYear').innerHTML = new Date().getFullYear();
+	</script>
 </html>
