@@ -23,7 +23,7 @@ const Security = () => {
             <div>
                 <Image
                     className="mx-auto d-block"
-                    src="./img/slytherin.gif" fluid 
+                    src="/img/slytherin.gif" fluid 
                     width="100px"
                     max-width="100%"
                 />

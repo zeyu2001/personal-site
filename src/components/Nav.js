@@ -18,16 +18,16 @@ const NavBar = () => {
         <Navbar.Collapse id="navbar">
           <Nav className="m-auto">
             <LinkContainer to="/">
-              <Nav.Link className="text-center">Home</Nav.Link>
+              <Nav.Link className="text-center"> Home </Nav.Link>
             </LinkContainer>
             <LinkContainer to="/about">
-              <Nav.Link className="text-center">About</Nav.Link>
+              <Nav.Link className="text-center"> About </Nav.Link>
             </LinkContainer>
             <LinkContainer to="/security">
-              <Nav.Link className="text-center">Security</Nav.Link>
+              <Nav.Link className="text-center"> Security </Nav.Link>
             </LinkContainer>
             <LinkContainer to="/software">
-              <Nav.Link className="text-center">Software</Nav.Link>
+              <Nav.Link className="text-center"> Software </Nav.Link>
             </LinkContainer>
             <Nav.Link className="text-center" href="https://mailhide.io/e/0H2TCszk" target="_blank">Contact</Nav.Link>
           </Nav>

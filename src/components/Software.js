@@ -43,13 +43,18 @@ const Software = () => {
             <div>
                 <Image
                     className="mx-auto d-block"
-                    src="./img/ravenclaw.gif" fluid 
+                    src="/img/ravenclaw.gif" fluid 
                     width="100px"
                     max-width="100%"
                 />
             </div>
             <h1 className='glow'>Software</h1>
-            <p>Of course, I can't call myself a tech guy without some software projects.</p>
+            <p>
+                Of course, I can't call myself a tech guy without some software projects.
+            </p>
+            <p>
+                I enjoy building scalabe, secure, and performant software systems.
+            </p>
             <Container className="my-5">
                 <h2 align="center" className='glow'>Stuff I Made</h2>
                 <hr/>

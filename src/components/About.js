@@ -11,7 +11,7 @@ const About = () => {
         <div>
           <Image
               className="mx-auto d-block"
-              src="./img/gryffindor.gif" fluid 
+              src="/img/gryffindor.gif" fluid
               width="100px"
               max-width="100%"
           />

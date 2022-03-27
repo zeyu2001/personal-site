@@ -12,6 +12,7 @@ export default class LoadingAnimation{
         if (!document.querySelector("#title-container")) {
             let div = document.createElement("div");
             div.classList.add("title-container");
+            div.classList.add("data-nosnippet");
             div.id = "title-container";
         
             this.targetEl.parentNode.insertBefore(div, this.targetEl.nextSibling);
