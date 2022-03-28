@@ -53,7 +53,7 @@ const Software = () => {
                 Of course, I can't call myself a tech guy without some software projects.
             </p>
             <p>
-                I enjoy building scalabe, secure, and performant software systems.
+                I enjoy building scalable, secure, and performant software systems.
             </p>
             <Container className="my-5">
                 <h2 align="center" className='glow'>Stuff I Made</h2>
