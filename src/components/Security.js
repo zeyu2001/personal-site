@@ -16,6 +16,14 @@ const ImgCol = ({url, imgSrc, caption, size}) => {
     )
 }
 
+const CveItem = ({url, name}) => {
+    return (
+        <a rel="noopener noreferrer" target="_blank"
+            href={url}>
+        {name}</a>
+    )
+}
+
 const Security = () => {
     return (
         <>
@@ -58,14 +66,19 @@ const Security = () => {
                         <div className="text-center my-5">
                             <ul style={{"listStyleType": "none"}}>
                                 <li>
-                                    <a rel="noopener noreferrer" target="_blank"
-                                        href="https://nvd.nist.gov/vuln/detail/CVE-2022-24766">
-                                    CVE-2022-24766 - HTTP Request Smuggling in mitmproxy</a>
+                                    <CveItem 
+                                        name="CVE-2022-24766 - HTTP Request Smuggling in mitmproxy"
+                                        url="https://nvd.nist.gov/vuln/detail/CVE-2022-24766"></CveItem>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" target="_blank"
-                                        href="https://nvd.nist.gov/vuln/detail/CVE-2022-24761">
-                                    CVE-2022-24761 - HTTP Request Smuggling in waitress</a>
+                                    <CveItem 
+                                        name="CVE-2022-24761 - HTTP Request Smuggling in waitress"
+                                        url="https://nvd.nist.gov/vuln/detail/CVE-2022-24761"></CveItem>
+                                </li>
+                                <li>
+                                    <CveItem 
+                                        name="CVE-2022-1233 - URL Confusion in URI.js"
+                                        url="https://nvd.nist.gov/vuln/detail/CVE-2022-1233"></CveItem>
                                 </li>
                             </ul>
                         </div>
@@ -93,6 +106,9 @@ const Security = () => {
                         <div className="text-center my-5">
                             <h3 className='glow'>International CTFs</h3>
                             <ul style={{"listStyleType": "none"}}>
+                                <li>
+                                    Midnight Sun CTF 2022 - 6th (Qualifiers), TBD (Finals)
+                                </li>
                                 <li>
                                     YaCTF 2022 (Individual) - 13th
                                 </li>
@@ -122,7 +138,7 @@ const Security = () => {
                 <h2 align="center" className='glow'>Certifications</h2>
                 <hr/>
                 <Row className="justify-content-center">
-                    <ImgCol size="3" url="https://www.credly.com/badges/068acdbc-1143-4cff-9cbc-c456ade5ba2b" imgSrc="./img/OSCP.png" 
+                    <ImgCol size="3" url="https://www.credential.net/e23eb90d-5090-499e-88c1-a39ce2d5892d" imgSrc="./img/OSCP.png" 
                         caption="Offensive Security Certified Professional"/>
                     <ImgCol size="3" url="https://portswigger.net/web-security/e/c/8dccc9f64c35e1e1" imgSrc="./img/BSCP.png" 
                         caption="Burp Suite Certified Practitioner"/>

@@ -173,10 +173,10 @@ footer
 .img-col-div {
   align-items: center;
   display: flex;
-  height: 300px;
+  height: 275px;
 }
 
 .img-col-div > img {
-  max-height: 250px;
+  max-height: 225px;
   width: auto;
 }
