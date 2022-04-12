@@ -67,12 +67,22 @@ const Security = () => {
                             <ul style={{"listStyleType": "none"}}>
                                 <li>
                                     <CveItem 
+                                        name="CVE-2022-24766 - HTTP Request Smuggling in Puma"
+                                        url="https://nvd.nist.gov/vuln/detail/CVE-2022-24790"></CveItem>
+                                </li>
+                                <li>
+                                    <CveItem 
+                                        name="CVE-2022-24766 - HTTP Request Smuggling in Twisted"
+                                        url="https://nvd.nist.gov/vuln/detail/CVE-2022-24801"></CveItem>
+                                </li>
+                                <li>
+                                    <CveItem 
                                         name="CVE-2022-24766 - HTTP Request Smuggling in mitmproxy"
                                         url="https://nvd.nist.gov/vuln/detail/CVE-2022-24766"></CveItem>
                                 </li>
                                 <li>
                                     <CveItem 
-                                        name="CVE-2022-24761 - HTTP Request Smuggling in waitress"
+                                        name="CVE-2022-24761 - HTTP Request Smuggling in Waitress"
                                         url="https://nvd.nist.gov/vuln/detail/CVE-2022-24761"></CveItem>
                                 </li>
                                 <li>
@@ -106,6 +116,9 @@ const Security = () => {
                         <div className="text-center my-5">
                             <h3 className='glow'>International CTFs</h3>
                             <ul style={{"listStyleType": "none"}}>
+                                <li>
+                                    Securinets CTF 2022 - 4th (Qualifiers), TBD (Finals)
+                                </li>
                                 <li>
                                     Midnight Sun CTF 2022 - 6th (Qualifiers), TBD (Finals)
                                 </li>
