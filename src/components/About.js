@@ -4,6 +4,69 @@ import Typed from 'react-typed';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
+const EducationElement = ({ title, subtitle, date, description }) => (
+    <VerticalTimelineElement
+      className="vertical-timeline-element--school"
+      contentStyle={{ background: 'rgb(0, 51, 51)', color: '#fff' }}
+      contentArrowStyle={{ borderRight: '7px solid  rgb(0, 51, 51)' }}
+      date={date}
+      dateClassName='glow'
+      iconStyle={{ background: 'rgb(0, 51, 51)', color: '#fff' }}
+      icon={<i className="fas fa-graduation-cap center-icon"></i>}
+    >
+      <h3 className="vertical-timeline-element-title glow">{title}</h3>
+      <p className="vertical-timeline-element-subtitle">{subtitle}</p>
+      <hr />
+      {
+          description.map((item) => (
+              <p>{item}</p>
+          ))
+      }
+  </VerticalTimelineElement>
+);
+
+const CertificationElement = ({ title, subtitle, date, description }) => (
+  <VerticalTimelineElement
+    className="vertical-timeline-element--school"
+    contentStyle={{ background: 'rgb(102, 0, 0)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(102, 0, 0)' }}
+    date={date}
+    dateClassName='glow'
+    iconStyle={{ background: 'rgb(102, 0, 0)', color: '#fff' }}
+    icon={<i className="fas fa-scroll center-icon"></i>}
+  >
+    <h3 className="vertical-timeline-element-title glow">{title}</h3>
+    <p className="vertical-timeline-element-subtitle">{subtitle}</p>
+    <hr />
+    {
+        description.map((item) => (
+            <p>{item}</p>
+        ))
+    }
+  </VerticalTimelineElement>
+);
+
+const WorkElement = ({ title, subtitle, date, description }) => (
+  <VerticalTimelineElement
+    className="vertical-timeline-element--school"
+    contentStyle={{ background: 'rgb(51, 51, 102)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(51, 51, 102)' }}
+    date={date}
+    dateClassName='glow'
+    iconStyle={{ background: 'rgb(51, 51, 102)', color: '#fff' }}
+    icon={<i className="fas fa-briefcase center-icon"></i>}
+  >
+    <h3 className="vertical-timeline-element-title glow">{title}</h3>
+    <p className="vertical-timeline-element-subtitle">{subtitle}</p>
+    <hr />
+    {
+        description.map((item) => (
+            <p>{item}</p>
+        ))
+    }
+  </VerticalTimelineElement>
+);
+
 const About = () => {
   return (
     <>
@@ -34,127 +97,57 @@ const About = () => {
       <Container className="my-5">
         <hr/>
         <VerticalTimeline>
-        <VerticalTimelineElement
-            className="vertical-timeline-element--school"
-            contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
+          <EducationElement
+            title="B.A. Computer Science"
+            subtitle="University of Cambridge"
             date="Future (2023 - 2026)"
-            dateClassName='glow'
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<i className="fas fa-graduation-cap center-icon"></i>}
-          >
-            <h3 className="vertical-timeline-element-title">B.A. Computer Science</h3>
-            <p className="vertical-timeline-element-subtitle">University of Cambridge</p>
-            <hr />
-            <p>
-              Incoming undergraduate.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--school"
-            contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
+            description={["Incoming undergraduate."]}
+          />
+          <CertificationElement
+            title="Burp Suite Certified Practitioner"
+            subtitle="PortSwigger"
             date="2021"
-            dateClassName='glow'
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<i className="fas fa-graduation-cap center-icon"></i>}
-          >
-            <h3 className="vertical-timeline-element-title">Burp Suite Certified Practitioner</h3>
-            <p className="vertical-timeline-element-subtitle">PortSwigger</p>
-            <hr />
-            <p>
-              Web security testing certification.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--school"
-            contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
+            description={["Web security testing certification."]}
+          />
+          <CertificationElement
+            title="Offensive Security Certified Professional"
+            subtitle="Offensive Security"
             date="2021"
-            dateClassName='glow'
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<i className="fas fa-graduation-cap center-icon"></i>}
-          >
-            <h3 className="vertical-timeline-element-title">Offensive Security Certified Professional</h3>
-            <p className="vertical-timeline-element-subtitle">Offensive Security</p>
-            <hr />
-            <p>
-              Penetration testing certification.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            description={["Penetration testing certification."]}
+          />
+          <WorkElement
+            title="Cyber Security Specialist"
+            subtitle="Ministry of Defence, Singapore"
             date="2021 - present"
-            dateClassName='glow'
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<i className="fas fa-briefcase center-icon"></i>}
-          >
-            <h3 className="vertical-timeline-element-title">Cyber Security Specialist</h3>
-            <p className="vertical-timeline-element-subtitle">Ministry of Defence, Singapore</p>
-            <hr />
-            <p>
-              Threat intelligence, tooling, technical analysis.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--school"
-            contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
+            description={["Threat intelligence, tooling, technical analysis."]}
+          />
+          <EducationElement
+            title="Cyber Defence School"
+            subtitle="Singapore Armed Forces"
             date="2020"
-            dateClassName='glow'
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<i className="fas fa-graduation-cap center-icon"></i>}
-          >
-            <h3 className="vertical-timeline-element-title">Cyber Defence School</h3>
-            <p className="vertical-timeline-element-subtitle">Singapore Armed Forces</p>
-            <hr />
-            <p>
-              Cyber Forensics, Incident Response, Malware Analysis, Penetration Testing.
-            </p>
-            <p>
-              Distinguished Honour Graduate and Best in Knowledge.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            description={[
+              "Cyber Forensics, Incident Response, Malware Analysis, Penetration Testing.",
+              "Distinguished Honour Graduate and Best in Knowledge."
+            ]}
+          />
+          <WorkElement
+            title="Research Intern"
+            subtitle="A*STAR, Singapore"
             date="2018"
-            dateClassName='glow'
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<i className="fas fa-briefcase center-icon"></i>}
-          >
-            <h3 className="vertical-timeline-element-title">Research Intern</h3>
-            <p className="vertical-timeline-element-subtitle">A*STAR, Singapore</p>
-            <hr />
-            <p>
-              Computational Physics.
-            </p>
-            <p>
-              Best Poster Award @ SSEF 2019.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--school"
-            contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
+            description={[
+              "Computational Physics.",
+              "Best Poster Award @ SSEF 2019."
+            ]}
+          />
+          <EducationElement
+            title="A Level"
+            subtitle="River Valley High School"
             date="2014 - 2019"
-            dateClassName='glow'
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<i className="fas fa-graduation-cap center-icon"></i>}
-          >
-            <h3 className="vertical-timeline-element-title">A Level</h3>
-            <p className="vertical-timeline-element-subtitle">River Valley High School</p>
-            <hr />
-            <p>
-              Distinctions in H2 Computing, Mathematics, Physics, Economics, and H3 Physics.
-            </p>
-            <p>
-              Senior Infocomm Club, Science Leaders Academy, Eco-sustainability Club.
-            </p>
-          </VerticalTimelineElement>
+            description={[
+              "Distinctions in H2 Computing, Mathematics, Physics, Economics, and H3 Physics.",
+              "Senior Infocomm Club, Science Leaders Academy, Eco-sustainability Club."
+            ]}
+          />
         </VerticalTimeline>
       </Container>
     </>

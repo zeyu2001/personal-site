@@ -16,11 +16,11 @@ const ImgCol = ({url, imgSrc, caption, size}) => {
     )
 }
 
-const CveItem = ({url, name}) => {
+const CveItem = ({url, cveId, name, cvss}) => {
     return (
-        <a rel="noopener noreferrer" target="_blank"
-            href={url}>
-        {name}</a>
+        <a rel="noopener noreferrer" target="_blank" href={url}>
+            <b>{cveId}</b>: <i>CVSS {cvss}</i> - {name}
+        </a>
     )
 }
 
@@ -52,10 +52,18 @@ const Security = () => {
                 </div>
                 <hr/>
                 <Row className="justify-content-center">
+                    <ImgCol size="3" url="https://hackerone.com/" imgSrc="./img/HackerOne.png" caption="HackerOne"/>
                     <ImgCol size="3" url="https://nodejs.org/en/" imgSrc="./img/Node.png" caption="Node.js"/>
                     <ImgCol size="3" url="https://upchieve.org/" imgSrc="./img/UPchieve.png" caption="UPchieve"/>
                     <ImgCol size="3" url="https://www.drugs.com/" imgSrc="./img/Drugs.png" caption="Drugs.com"/>
+                </Row>
+                <Row className="justify-content-center">
                     <ImgCol size="3" url="https://www.cedars-sinai.org/" imgSrc="./img/Cedars-Sinai.png" caption="Cedars Sinai"/>
+                </Row>
+                <Row className="justify-content-center my-5">
+                    <p className="text-center">
+                        This list is non-exhaustive and only includes public information. It does not include any private engagements.
+                    </p>
                 </Row>
             </Container>
             <Container className="my-5">
@@ -67,27 +75,37 @@ const Security = () => {
                             <ul style={{"listStyleType": "none"}}>
                                 <li>
                                     <CveItem 
-                                        name="CVE-2022-24766 - HTTP Request Smuggling in Puma"
+                                        cveId="CVE-2022-24790"
+                                        cvss="9.1 (Critical)"
+                                        name="HTTP Request Smuggling in Puma"
                                         url="https://nvd.nist.gov/vuln/detail/CVE-2022-24790"></CveItem>
                                 </li>
                                 <li>
                                     <CveItem 
-                                        name="CVE-2022-24766 - HTTP Request Smuggling in Twisted"
+                                        cveId="CVE-2022-24801"
+                                        cvss="8.1 (High)"
+                                        name="HTTP Request Smuggling in Twisted"
                                         url="https://nvd.nist.gov/vuln/detail/CVE-2022-24801"></CveItem>
                                 </li>
                                 <li>
-                                    <CveItem 
-                                        name="CVE-2022-24766 - HTTP Request Smuggling in mitmproxy"
+                                    <CveItem
+                                        cveId="CVE-2022-24766"
+                                        cvss="9.8 (Critical)"
+                                        name="HTTP Request Smuggling in mitmproxy"
                                         url="https://nvd.nist.gov/vuln/detail/CVE-2022-24766"></CveItem>
                                 </li>
                                 <li>
                                     <CveItem 
-                                        name="CVE-2022-24761 - HTTP Request Smuggling in Waitress"
+                                        cveId="CVE-2022-24761"
+                                        cvss="7.5 (High)"
+                                        name="HTTP Request Smuggling in Waitress"
                                         url="https://nvd.nist.gov/vuln/detail/CVE-2022-24761"></CveItem>
                                 </li>
                                 <li>
                                     <CveItem 
-                                        name="CVE-2022-1233 - URL Confusion in URI.js"
+                                        cveId="CVE-2022-1233"
+                                        cvss="6.5 (Medium)"
+                                        name="URL Confusion in URI.js"
                                         url="https://nvd.nist.gov/vuln/detail/CVE-2022-1233"></CveItem>
                                 </li>
                             </ul>
@@ -117,7 +135,7 @@ const Security = () => {
                             <h3 className='glow'>International CTFs</h3>
                             <ul style={{"listStyleType": "none"}}>
                                 <li>
-                                    Securinets CTF 2022 - 4th (Qualifiers), TBD (Finals)
+                                    Securinets CTF 2022 - 4th (Qualifiers), 4th (Finals)
                                 </li>
                                 <li>
                                     Midnight Sun CTF 2022 - 6th (Qualifiers), TBD (Finals)
@@ -138,6 +156,9 @@ const Security = () => {
                             <ul style={{"listStyleType": "none"}}>
                                 <li>
                                     SEETF 2022
+                                </li>
+                                <li>
+                                    Cyber League Singapore Major 1
                                 </li>
                                 <li>
                                     STANDCON CTF 2021 - 2022
