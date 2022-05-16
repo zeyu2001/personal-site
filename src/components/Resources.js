@@ -57,7 +57,7 @@ const Resources = () => {
                                             <p>
                                                 Server-side request forgery, SQL injection, JWT attacks, and HTTP request smuggling.
                                             </p>
-                                            <a href="/pdf/talks/rvctf/03--Server-Side-Attacks.pdf" target="_blank" rel="noopener noreferrer">Download</a>
+                                            <a href="/pdf/talks/rvctf/03-Server-Side-Attacks.pdf" target="_blank" rel="noopener noreferrer">Download</a>
                                         </Tab.Pane>
                                     </Tab.Content>
                                     </Col>
