@@ -12,6 +12,7 @@ import Security from "./components/Security";
 import Software from "./components/Software";
 import NavBar from "./components/Nav";
 import ScrollToTop from "./components/ScrollToTop";
+import Resources from "./components/Resources";
 import NotFound from "./components/404";
 
 class EasterEgg extends React.PureComponent {
@@ -43,6 +44,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/security" element={<Security />} />
               <Route path="/software" element={<Software />} />
+              <Route path="/resources" element={<Resources />} />
 
               <Route path="*" element={<NotFound />} />
             </Routes>

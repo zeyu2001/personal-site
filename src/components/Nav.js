@@ -29,6 +29,9 @@ const NavBar = () => {
             <LinkContainer to="/software">
               <Nav.Link className="text-center"> Software </Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/resources">
+              <Nav.Link className="text-center"> Resources </Nav.Link>
+            </LinkContainer>
             <Nav.Link className="text-center" href="https://mailhide.io/e/0H2TCszk" target="_blank">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
