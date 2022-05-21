@@ -95,6 +95,25 @@ const About = () => {
         </div>
       </Container>
       <Container className="my-5">
+          <h2 align="center" className='glow'>Media</h2>
+          <hr/>
+          <div className="text-center my-5">
+            <ul style={{"listStyleType": "none"}}>
+              <li>
+                <a href="https://portswigger.net/daily-swig/http-request-smuggling-bug-patched-in-mitmproxy" target="_blank">
+                  HTTP request smuggling bug patched in mitmproxy, The Daily Swig
+                </a>
+              </li>
+              <li>
+                <a href="https://latesthackingnews.com/2022/03/30/a-mitmproxy-vulnerability-could-allow-http-request-smuggling-attacks/" target="_blank">
+                  A mitmproxy Vulnerability Could Allow HTTP Request Smuggling Attacks, Latest Hacking News
+                </a>
+              </li>
+            </ul>
+          </div>
+      </Container>
+      <Container className="my-5">
+        <h2 align="center" className='glow'>Timeline</h2>
         <hr/>
         <VerticalTimeline>
           <EducationElement
