@@ -22,6 +22,39 @@ const Resources = () => {
                     <hr/>
                     <Row>
                         <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+                            <h3 className="glow">Division Zero Bug Bounty Quarter</h3>
+                            <div className="my-2">
+                                <Tab.Container defaultActiveKey="#link1">
+                                <Row>
+                                    <Col sm={6} className="my-2">
+                                        <ListGroup>
+                                            <ListGroup.Item action href="#link1" variant="dark">
+                                                Learn Hacking Through CTF Competitions
+                                            </ListGroup.Item>
+                                        </ListGroup>
+                                    </Col>
+                                    <Col sm={6} className="my-2">
+                                    <Tab.Content>
+                                        <Tab.Pane eventKey="#link1">
+                                            <p>
+                                                What a year of playing CTF competitions and competing against top teams globally has taught me, 
+                                                how CTF challenges can realistically model real-world vulnerabilities, 
+                                                and how ethical hackers can create interesting and educational CTF challenges.
+                                            </p>
+                                            <a href="/pdf/talks/div0/Learn-Hacking-Through-CTF-Competitions.pdf" target="_blank" rel="noopener noreferrer">Download</a>
+                                        </Tab.Pane>
+                                    </Tab.Content>
+                                    </Col>
+                                </Row>
+                                </Tab.Container>
+                            </div>
+                        </Col>
+                        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+                            <Image src="/img/Div0-Talk.jpeg" fluid width="90%" rounded/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
                             <h3 className="glow">River Valley High School CTF Club</h3>
                             <div className="my-2">
                                 <Tab.Container defaultActiveKey="#link1">

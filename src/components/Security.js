@@ -1,4 +1,4 @@
-import { Row, Col, Image, Container } from 'react-bootstrap';
+import { Row, Col, Image, Container, ListGroup } from 'react-bootstrap';
 
 const ImgCol = ({url, imgSrc, caption, size}) => {
     return (
@@ -71,8 +71,8 @@ const Security = () => {
                     <Col xs={12} sm={6} md={6} className="my-5">
                         <h2 align="center" className='glow'>CVEs</h2>
                         <hr/>
-                        <div className="text-center my-5">
-                            <ul style={{"listStyleType": "none"}}>
+                        <div className="my-5">
+                            <ListGroup a="ul">
                                 <li>
                                     <CveItem 
                                         cveId="CVE-2022-24790"
@@ -108,15 +108,23 @@ const Security = () => {
                                         name="URL Confusion in URI.js"
                                         url="https://nvd.nist.gov/vuln/detail/CVE-2022-1233"></CveItem>
                                 </li>
-                            </ul>
+                            </ListGroup>
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={6} className="my-5">
                         <h2 align="center" className='glow'>Competitions</h2>
                         <hr/>
-                        <div className="text-center my-5">
-                            <h3 className='glow'>Singapore CTFs</h3>
-                            <ul style={{"listStyleType": "none"}}>
+                        <div className="my-5">
+                            <div className="text-center">
+                                <h3 className='glow'>Singapore CTFs</h3>
+                            </div>
+                            <ListGroup a="ul">
+                                <li>
+                                    DSTA BrainHack Cyber Defenders Discovery Camp 2022 - 🥉 (University Category)
+                                </li>
+                                <li>
+                                    NUS Grey Cat The Flag 2022 - 3rd (Qualifiers), 4th (Finals)
+                                </li>
                                 <li>
                                     CTF.SG CTF 2022 - 🥉
                                 </li>
@@ -124,16 +132,19 @@ const Security = () => {
                                     HTX Investigators' Challenge 2021 - 🥇, but it's a long story
                                 </li>
                                 <li>
-                                    The InfoSecurity Challenge 2021 - Top 30
+                                    CSIT The InfoSecurity Challenge 2021 - Top 30
                                 </li>
                                 <li>
-                                    BrainHack Cyber Defenders Discovery Camp 2021 - 🥉
+                                    DSTA BrainHack Cyber Defenders Discovery Camp 2021 - 🥉 (JC/IP Category)
                                 </li>
-                            </ul>
+                            </ListGroup>
+   
                         </div>
-                        <div className="text-center my-5">
-                            <h3 className='glow'>International CTFs</h3>
-                            <ul style={{"listStyleType": "none"}}>
+                        <div className="my-5">
+                            <div className="text-center">
+                                <h3 className='glow'>International CTFs</h3>
+                            </div>
+                            <ListGroup a="ul">
                                 <li>
                                     Securinets CTF 2022 - 4th (Qualifiers), 4th (Finals)
                                 </li>
@@ -149,11 +160,13 @@ const Security = () => {
                                 <li>
                                     Many more on the team's <a href="https://ctftime.org/team/151372" rel="noreferrer" target="_blank">CTFtime Profile</a>
                                 </li>
-                            </ul>
+                            </ListGroup>
                         </div>
-                        <div className="text-center my-5">
-                            <h3 className='glow'>CTF Challenge Author</h3>
-                            <ul style={{"listStyleType": "none"}}>
+                        <div className="my-5">
+                            <div className="text-center">
+                                <h3 className='glow'>CTF Challenge Author</h3>
+                            </div>
+                            <ListGroup a="ul">
                                 <li>
                                     SEETF 2022
                                 </li>
@@ -163,7 +176,7 @@ const Security = () => {
                                 <li>
                                     STANDCON CTF 2021 - 2022
                                 </li>
-                            </ul>
+                            </ListGroup>
                         </div>
                     </Col>
                 </Row>

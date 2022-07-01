@@ -1,4 +1,4 @@
-import { Row, Col, Image, Container, Badge } from 'react-bootstrap';
+import { Row, Col, Image, Container, Badge, ListGroup } from 'react-bootstrap';
 import { 
     SiFlask, SiReact, SiJavascript, SiPython, SiBootstrap, SiDjango, SiExpress, SiNodedotjs, SiDocker, SiVagrant,
     SiJava, SiSpringboot
@@ -111,8 +111,8 @@ const Software = () => {
                     <Col xs={12} sm={6} md={6} className="my-5">
                         <h2 align="center" className='glow'>Technologies I Use</h2>
                         <hr/>
-                        <div className="text-center my-5">
-                            <ul style={{"listStyleType": "none"}}>
+                        <div className="my-5">
+                            <ListGroup a="ul">
                                 <li>
                                     <SiPython/> Python, <SiDjango/> Django, <SiFlask/> Flask
                                 </li>
@@ -128,24 +128,24 @@ const Software = () => {
                                 <li>
                                     <SiDocker/> Docker, <SiVagrant/> Vagrant
                                 </li>
-                            </ul>
+                            </ListGroup>
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={6} className="my-5">
                         <h2 align="center" className='glow'>Competitions</h2>
                         <hr/>
-                        <div className="text-center my-5">
-                            <ul style={{"listStyleType": "none"}}>
+                        <div className="my-5">
+                            <ListGroup a="ul">
                                 <li>
                                     Tech For Good Festival 2021 - Most Impactful Award
                                 </li>
                                 <li>
-                                    BrainHack Today I Learned AI Camp 2021 - 4th Place, Newcomer Award
+                                    BrainHack Today I Learned AI Camp 2021 - 4th Place, Newcomer Award (University Category)
                                 </li>
                                 <li>
                                     National Olympiad for Informatics 2019 - Bronze Award
                                 </li>
-                            </ul>
+                            </ListGroup>
                         </div>
                     </Col>
                 </Row>
