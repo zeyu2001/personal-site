@@ -100,12 +100,12 @@ const About = () => {
           <div className="text-center my-5">
             <ul style={{"listStyleType": "none"}}>
               <li>
-                <a href="https://portswigger.net/daily-swig/http-request-smuggling-bug-patched-in-mitmproxy" target="_blank">
+                <a href="https://portswigger.net/daily-swig/http-request-smuggling-bug-patched-in-mitmproxy" target="_blank" rel="noreferrer">
                   HTTP request smuggling bug patched in mitmproxy, The Daily Swig
                 </a>
               </li>
               <li>
-                <a href="https://latesthackingnews.com/2022/03/30/a-mitmproxy-vulnerability-could-allow-http-request-smuggling-attacks/" target="_blank">
+                <a href="https://latesthackingnews.com/2022/03/30/a-mitmproxy-vulnerability-could-allow-http-request-smuggling-attacks/" target="_blank" rel="noreferrer">
                   A mitmproxy Vulnerability Could Allow HTTP Request Smuggling Attacks, Latest Hacking News
                 </a>
               </li>
