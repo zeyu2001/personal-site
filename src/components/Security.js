@@ -75,6 +75,13 @@ const Security = () => {
                             <ListGroup a="ul">
                                 <li>
                                     <CveItem 
+                                        cveId="CVE-2022-32213, CVE-2022-32214, CVE-2022-32215"
+                                        cvss="6.5 (Medium)"
+                                        name="HTTP Request Smuggling in Node.js"
+                                        url="https://nodejs.org/en/blog/vulnerability/july-2022-security-releases/"></CveItem>
+                                </li>
+                                <li>
+                                    <CveItem 
                                         cveId="CVE-2022-24790"
                                         cvss="9.1 (Critical)"
                                         name="HTTP Request Smuggling in Puma"
@@ -123,7 +130,7 @@ const Security = () => {
                                     DSTA BrainHack Cyber Defenders Discovery Camp 2022 - 🥉 (University Category)
                                 </li>
                                 <li>
-                                    NUS Grey Cat The Flag 2022 - 3rd (Qualifiers), 4th (Finals)
+                                    NUS Grey Cat The Flag 2022 - 🥉 (Qualifiers), 4th (Finals)
                                 </li>
                                 <li>
                                     CTF.SG CTF 2022 - 🥉
