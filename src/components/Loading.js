@@ -1,7 +1,7 @@
 export default class LoadingAnimation{
     constructor(targetEl) {
         this.targetEl = targetEl;
-        this.alphabet = new Array("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0");
+        this.alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
         this.letter_count = 0;
         this.word = this.targetEl.innerText.trim().toUpperCase();
         this.finished = false;

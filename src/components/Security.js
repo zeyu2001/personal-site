@@ -75,8 +75,22 @@ const Security = () => {
                             <ListGroup a="ul">
                                 <li>
                                     <CveItem 
+                                        cveId="CVE-2022-25763, CVE-2022-28129"
+                                        cvss="Awaiting"
+                                        name="HTTP Request Smuggling in Apache Traffic Server"
+                                        url="https://lists.apache.org/thread/rc64lwbdgrkv674koc3zl1sljr9vwg21"></CveItem>
+                                </li>
+                                <li>
+                                    <CveItem 
+                                        cveId="CVE-2022-1705"
+                                        cvss="Awaiting"
+                                        name="HTTP Request Smuggling in Golang"
+                                        url="https://access.redhat.com/security/cve/CVE-2022-1705"></CveItem>
+                                </li>
+                                <li>
+                                    <CveItem 
                                         cveId="CVE-2022-32213, CVE-2022-32214, CVE-2022-32215"
-                                        cvss="6.5 (Medium)"
+                                        cvss="9.1 (Critical)"
                                         name="HTTP Request Smuggling in Node.js"
                                         url="https://nodejs.org/en/blog/vulnerability/july-2022-security-releases/"></CveItem>
                                 </li>
@@ -116,6 +130,12 @@ const Security = () => {
                                         url="https://nvd.nist.gov/vuln/detail/CVE-2022-1233"></CveItem>
                                 </li>
                             </ListGroup>
+                        </div>
+                        <div>
+                            <p>
+                                CVSS scores are provided by the <a href="https://nvd.nist.gov/" target="_blank" rel="noopener noreferrer">National Vulnerability Database</a>.
+                                When undergoing analysis by the NVD, the CVSS score is not yet available.
+                            </p>
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={6} className="my-5">
