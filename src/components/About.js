@@ -100,6 +100,11 @@ const About = () => {
           <div className="text-center my-5">
             <ul style={{"listStyleType": "none"}}>
               <li>
+                <a href="https://portswigger.net/daily-swig/node-js-fixes-multiple-bugs-that-could-lead-to-rce-http-request-smuggling" target="_blank" rel="noreferrer">
+                  Node.js fixes multiple bugs that could lead to RCE, HTTP request smuggling
+                </a>
+              </li>
+              <li>
                 <a href="https://portswigger.net/daily-swig/http-request-smuggling-bug-patched-in-mitmproxy" target="_blank" rel="noreferrer">
                   HTTP request smuggling bug patched in mitmproxy, The Daily Swig
                 </a>

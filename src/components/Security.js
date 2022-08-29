@@ -76,14 +76,14 @@ const Security = () => {
                                 <li>
                                     <CveItem 
                                         cveId="CVE-2022-25763, CVE-2022-28129"
-                                        cvss="Awaiting"
+                                        cvss="7.5 (High)"
                                         name="HTTP Request Smuggling in Apache Traffic Server"
                                         url="https://lists.apache.org/thread/rc64lwbdgrkv674koc3zl1sljr9vwg21"></CveItem>
                                 </li>
                                 <li>
                                     <CveItem 
                                         cveId="CVE-2022-1705"
-                                        cvss="Awaiting"
+                                        cvss="6.5 (Medium)"
                                         name="HTTP Request Smuggling in Golang"
                                         url="https://access.redhat.com/security/cve/CVE-2022-1705"></CveItem>
                                 </li>
