@@ -184,3 +184,7 @@ footer
   max-height: 225px;
   width: auto;
 }
+
+.yarl__slide_description {
+  --yarl__slide_description_text_align: center;
+}

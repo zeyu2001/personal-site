@@ -36,6 +36,12 @@ const JavaScriptBadge = () => {
     )
 }
 
+const ExpressBadge = () => {
+    return (
+        <Badge bg="white" text="dark"><SiExpress/> Express</Badge>
+    )
+}
+
 const Software = () => {
     return (
         <>
@@ -60,6 +66,24 @@ const Software = () => {
                 <hr/>
                 <Row>
                     <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+                    <h2><a href="https://github.com/sebasyii/zeno" rel="noreferrer" target="_blank">Zeno</a></h2>
+                        <p>
+                            A collection of modules to secure Express applications.
+                        </p>
+                        <p>
+                            Finalist, GovTech STACK The Codes Hackathon.
+                        </p>
+                        <div>
+                            <JavaScriptBadge/> <ExpressBadge/>
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+                        <Image src="./img/software/Zeno.png" fluid width="90%" rounded/>
+                    </Col>
+                </Row>
+                <hr/>
+                <Row>
+                    <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
                     <h2><a href="https://www.charlotteweb.io/" rel="noreferrer" target="_blank">Charlotte</a></h2>
                         <p>
                             Charlotte aims to make the web more accessible by providing a suite of accessibility tools, all in one handy browser extension.
@@ -72,7 +96,7 @@ const Software = () => {
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
-                        <Image src="./img/Charlotte.png" fluid width="90%" rounded/>
+                        <Image src="./img/software/Charlotte.png" fluid width="90%" rounded/>
                     </Col>
                 </Row>
                 <hr/>
@@ -87,7 +111,7 @@ const Software = () => {
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
-                        <Image src="./img/PersonalSite.png" fluid width="90%" rounded/>
+                        <Image src="./img/software/PersonalSite.png" fluid width="90%" rounded/>
                     </Col>
                 </Row>
                 <hr/>
@@ -102,7 +126,7 @@ const Software = () => {
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
-                        <Image src="./img/Chess.png" fluid width="90%" rounded/>
+                        <Image src="./img/software/Chess.png" fluid width="90%" rounded/>
                     </Col>
                 </Row>
             </Container>

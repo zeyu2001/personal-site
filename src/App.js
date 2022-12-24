@@ -6,13 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Animations.css";
 import "./App.css";
 
+import Page from "./components/Page";
 import Home from "./components/Home";
 import About from "./components/About";
 import Security from "./components/Security";
 import Software from "./components/Software";
+import Resources from "./components/Resources";
+import Gallery from "./components/Gallery";
 import NavBar from "./components/Nav";
 import ScrollToTop from "./components/ScrollToTop";
-import Resources from "./components/Resources";
 import NotFound from "./components/404";
 
 class EasterEgg extends React.PureComponent {
@@ -40,11 +42,12 @@ function App() {
             timeout={500}
           >
             <Routes location={location}>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/security" element={<Security />} />
-              <Route path="/software" element={<Software />} />
-              <Route path="/resources" element={<Resources />} />
+              <Route path="/" element={<Page component={Home} title="Home" />} />
+              <Route path="/about" element={<Page component={About} title="About" />} />
+              <Route path="/security" element={<Page component={Security} title="Security" />} />
+              <Route path="/software" element={<Page component={Software} title="Software" />} />
+              <Route path="/resources" element={<Page component={Resources} title="Resources" />} />
+              <Route path="/gallery" element={<Page component={Gallery} title="Gallery" />} />
 
               <Route path="*" element={<NotFound />} />
             </Routes>

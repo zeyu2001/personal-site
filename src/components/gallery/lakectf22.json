@@ -1,0 +1,16 @@
+[
+    { "src": "/img/gallery/lakectf22/plane.jpg", "width": 3000, "height": 4000 },
+    { "src": "/img/gallery/lakectf22/ground.jpg", "width": 3000, "height": 4000 },
+    { "src": "/img/gallery/lakectf22/epfl.jpg", "width": 4000, "height": 3000 },
+    { "src": "/img/gallery/lakectf22/camera.jpg", "width": 3000, "height": 4000 },
+    { "src": "/img/gallery/lakectf22/photo.jpg", "width": 4000, "height": 3000 },
+    { "src": "/img/gallery/lakectf22/holycow.jpg", "width": 3000, "height": 4000 },
+    { "src": "/img/gallery/lakectf22/mountain.jpg", "width": 4000, "height": 3000 },
+    { "src": "/img/gallery/lakectf22/snow.jpg", "width": 4000, "height": 3000 },
+    { "src": "/img/gallery/lakectf22/dam.jpg", "width": 4000, "height": 3000 },
+    { "src": "/img/gallery/lakectf22/clouds.jpg", "width": 4000, "height": 3000 },
+    { "src": "/img/gallery/lakectf22/protest.jpg", "width": 3000, "height": 4000 },
+    { "src": "/img/gallery/lakectf22/lake.jpg", "width": 4000, "height": 3000 },
+    { "src": "/img/gallery/lakectf22/boat.jpg", "width": 4000, "height": 3000 },
+    { "src": "/img/gallery/lakectf22/chess.jpg", "width": 4000, "height": 3000 }
+]

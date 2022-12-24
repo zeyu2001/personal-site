@@ -32,6 +32,9 @@ const NavBar = () => {
             <LinkContainer to="/resources">
               <Nav.Link className="text-center"> Resources </Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/gallery">
+              <Nav.Link className="text-center"> Gallery </Nav.Link>
+            </LinkContainer>
             <Nav.Link className="text-center" href="https://mailhide.io/e/0H2TCszk" target="_blank">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

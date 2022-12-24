@@ -70,6 +70,7 @@ const WorkElement = ({ title, subtitle, date, description }) => (
 const About = () => {
   return (
     <>
+    <Container>
       <Container>
         <div>
           <Image
@@ -128,6 +129,12 @@ const About = () => {
             description={["Incoming undergraduate."]}
           />
           <CertificationElement
+            title="Offensive Security Web Expert"
+            subtitle="Offensive Security"
+            date="2022"
+            description={["Web security testing certification."]}
+          />
+          <CertificationElement
             title="Burp Suite Certified Practitioner"
             subtitle="PortSwigger"
             date="2021"
@@ -174,6 +181,7 @@ const About = () => {
           />
         </VerticalTimeline>
       </Container>
+    </Container>
     </>
   );
 }

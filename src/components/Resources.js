@@ -4,6 +4,7 @@ const Resources = () => {
 
     return (
         <>
+        <Container>
             <div>
                 <Image
                     className="mx-auto d-block"
@@ -22,35 +23,41 @@ const Resources = () => {
                     <hr/>
                     <Row>
                         <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
-                            <h3 className="glow">Division Zero Bug Bounty Quarter</h3>
+                            <h3 className="glow">BSides Singapore</h3>
                             <div className="my-2">
-                                <Tab.Container defaultActiveKey="#link1">
                                 <Row>
-                                    <Col sm={6} className="my-2">
-                                        <ListGroup>
-                                            <ListGroup.Item action href="#link1" variant="dark">
-                                                Learn Hacking Through CTF Competitions
-                                            </ListGroup.Item>
-                                        </ListGroup>
-                                    </Col>
-                                    <Col sm={6} className="my-2">
-                                    <Tab.Content>
-                                        <Tab.Pane eventKey="#link1">
-                                            <p>
-                                                What a year of playing CTF competitions and competing against top teams globally has taught me, 
-                                                how CTF challenges can realistically model real-world vulnerabilities, 
-                                                and how ethical hackers can create interesting and educational CTF challenges.
-                                            </p>
-                                            <a href="/pdf/talks/div0/Learn-Hacking-Through-CTF-Competitions.pdf" target="_blank" rel="noopener noreferrer">Download</a>
-                                        </Tab.Pane>
-                                    </Tab.Content>
-                                    </Col>
+                                    <p class="lead">HTTP Request Smuggling in the Multiverse of Parsing Flaws</p>
+                                    <p>
+                                        HTTP request smuggling is a vulnerability which arises when web servers and proxies interpret the length of a single HTTP request differently. 
+                                        While basic techniques have been known since 2005, renewed research interest in HTTP request smuggling in recent years have uncovered many new bugs in popular web proxies and servers. 
+                                        Nowadays, novel HTTP request smuggling techniques rely on subtle deviations from the HTTP standard. 
+                                        In this talk, I discuss some of his recent findings and novel techniques.
+                                    </p>
+                                    <a href="/pdf/talks/bsides/HTTP-Request-Smuggling-BSidesSG2022.pdf" target="_blank" rel="noopener noreferrer">Download</a>
                                 </Row>
-                                </Tab.Container>
                             </div>
                         </Col>
                         <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
-                            <Image src="/img/Div0-Talk.jpeg" fluid width="90%" rounded/>
+                            <Image src="/img/talks/BSidesSG.jpg" fluid width="90%" rounded/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+                            <h3 className="glow">Division Zero Bug Bounty Quarter</h3>
+                            <div className="my-2">
+                                <Row>
+                                    <p class="lead">Learn Hacking Through CTF Competitions</p>
+                                    <p>
+                                        White hat hacking often requires a diverse set of skills and a vast repertoire of tricks that can aid one in exploitation. 
+                                        A quick way to expand one's knowledge bank can be through Capture the Flag (CTF) competitions, but these can be intimidating to get started with and can often feel detached from real-world scenarios. 
+                                        In this talk, I share what a year of playing CTF competitions and competing against top teams globally has taught me, how CTF challenges can realistically model real-world vulnerabilities, and how ethical hackers can create interesting and educational CTF challenges.
+                                    </p>
+                                    <a href="/pdf/talks/div0/Learn-Hacking-Through-CTF-Competitions.pdf" target="_blank" rel="noopener noreferrer">Download</a>
+                                </Row>
+                            </div>
+                        </Col>
+                        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+                            <Image src="/img/talks/Div0.jpeg" fluid width="90%" rounded/>
                         </Col>
                     </Row>
                     <Row>
@@ -99,7 +106,7 @@ const Resources = () => {
                             </div>
                         </Col>
                         <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
-                            <Image src="/img/RVCTF-Talk.jpeg" fluid width="90%" rounded/>
+                            <Image src="/img/talks/RVCTF.jpeg" fluid width="90%" rounded/>
                         </Col>
                     </Row>
                     <h2 align="center" className='glow'>Notes</h2>
@@ -157,6 +164,7 @@ const Resources = () => {
                     </Row>
                 </Container>
             </Container>
+        </Container>
         </>
     )
 }
