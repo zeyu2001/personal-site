@@ -141,7 +141,7 @@ const Security = () => {
                         </p>
                     </div>
                 </Row>
-                <Row className="my-5">
+                <Row>
                     <h2 align="center" className='glow'>Competitions</h2>
                     <hr/>
                     <Col xs={12} sm={6} md={6}>
@@ -210,7 +210,7 @@ const Security = () => {
                 </Row>
                 <Row>
                     <Col xs={12} sm={6} md={6}>
-                        <div>
+                        <div className="my-5">
                             <div className="text-center">
                                 <h3 className='glow'>Challenge Author</h3>
                             </div>
@@ -237,7 +237,7 @@ const Security = () => {
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={6}>
-                        <div>
+                        <div className="my-5">
                             <div className="text-center">
                                 <h3 className='glow'>CTF Organizer</h3>
                             </div>
