@@ -72,7 +72,7 @@ const Gallery = () => {
                     </a>. Clearly my pictures are worth more since they're larger than 2KB each.
                 </p>
                 <p>
-                    In 2022 I promised myself to start taking more pictures!
+                    In 2022 I promised myself to start taking more pictures and to document my life more. I'm not sure if I'll be able to keep that promise, but I'll try my best!
                 </p>
             </div>
         </Container>

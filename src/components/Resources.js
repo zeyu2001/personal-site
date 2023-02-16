@@ -33,7 +33,9 @@ const Resources = () => {
                                         Nowadays, novel HTTP request smuggling techniques rely on subtle deviations from the HTTP standard. 
                                         In this talk, I discuss some of his recent findings and novel techniques.
                                     </p>
-                                    <a href="/pdf/talks/bsides/HTTP-Request-Smuggling-BSidesSG2022.pdf" target="_blank" rel="noopener noreferrer">Download</a>
+                                    <p>
+                                        <a href="https://infosec.zeyu2001.com/2022/http-request-smuggling-in-the-multiverse-of-parsing-flaws" target="_blank" rel="noopener noreferrer">Blog Post</a> |  <a href="/pdf/talks/bsides/HTTP-Request-Smuggling-BSidesSG2022.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
+                                    </p>
                                 </Row>
                             </div>
                         </Col>

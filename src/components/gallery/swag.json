@@ -10,5 +10,9 @@
     {
         "src": "/img/gallery/swag/tiktok.jpg", "width": 3000, "height": 2250,
         "description": "Food from TikTok"
+    },
+    {
+        "src": "/img/gallery/swag/hackerone.jpg", "width": 3000, "height": 4000,
+        "description": "T-shirt and webcam cover for achieving 750 reputation on HackerOne"
     }
 ]

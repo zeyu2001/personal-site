@@ -1,4 +1,4 @@
-import { Container, Image } from 'react-bootstrap';
+import { Container, Image, ListGroup } from 'react-bootstrap';
 import Typed from 'react-typed';
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
@@ -98,24 +98,35 @@ const About = () => {
       <Container className="my-5">
           <h2 align="center" className='glow'>Media</h2>
           <hr/>
-          <div className="text-center my-5">
-            <ul style={{"listStyleType": "none"}}>
+          <div className="my-5">
+            <p>Sometimes I do stuff and people write about it.</p>
+            <ListGroup a="ul">
+              <li>
+                <a href="https://www.8world.com/stories/hello-singapore/click-it-young-talents-in-cyber-security-2009746" target="_blank" rel="noreferrer">
+                  [Chinese] Hello Singapore: Young Talents in Cyber Security | MediaCorp Channel 8
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/AJCCBC/posts/pfbid02EUcRfHjRsXhgjo7M65HtU2ws2duhz5DtVs4dc1hMajfNfVTDEM4aZcPdKbAiPcdl" target="_blank" rel="noreferrer">
+                  Cyber SEA Games 2022 | ASEAN-Japan Cybersecurity Capacity Building Centre
+                </a>
+              </li>
+              <li>
+                <a href="https://www.csit.gov.sg/events/tisc/tisc-2022-summary/tisc-2022-community-challenge-creators" target="_blank" rel="noreferrer">
+                  TISC 2022 community challenge creators | Centre for Strategic Infocomm Technologies
+                </a>
+              </li>
               <li>
                 <a href="https://portswigger.net/daily-swig/node-js-fixes-multiple-bugs-that-could-lead-to-rce-http-request-smuggling" target="_blank" rel="noreferrer">
-                  Node.js fixes multiple bugs that could lead to RCE, HTTP request smuggling
+                  Node.js fixes multiple bugs that could lead to RCE, HTTP request smuggling | The Daily Swig
                 </a>
               </li>
               <li>
                 <a href="https://portswigger.net/daily-swig/http-request-smuggling-bug-patched-in-mitmproxy" target="_blank" rel="noreferrer">
-                  HTTP request smuggling bug patched in mitmproxy, The Daily Swig
+                  HTTP request smuggling bug patched in mitmproxy | The Daily Swig
                 </a>
               </li>
-              <li>
-                <a href="https://latesthackingnews.com/2022/03/30/a-mitmproxy-vulnerability-could-allow-http-request-smuggling-attacks/" target="_blank" rel="noreferrer">
-                  A mitmproxy Vulnerability Could Allow HTTP Request Smuggling Attacks, Latest Hacking News
-                </a>
-              </li>
-            </ul>
+            </ListGroup>
           </div>
       </Container>
       <Container className="my-5">
