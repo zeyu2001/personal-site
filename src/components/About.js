@@ -139,6 +139,12 @@ const About = () => {
             date="Future (2023 - 2026)"
             description={["Incoming undergraduate."]}
           />
+          <WorkElement
+            title="Security Engineer"
+            subtitle="ByteDance"
+            date="2023"
+            description={["Source code review, security tooling, security research."]}
+          />
           <CertificationElement
             title="Offensive Security Web Expert"
             subtitle="Offensive Security"
@@ -160,7 +166,7 @@ const About = () => {
           <WorkElement
             title="Cyber Security Specialist"
             subtitle="Ministry of Defence, Singapore"
-            date="2021 - present"
+            date="2021 - 2022"
             description={["Threat intelligence, tooling, technical analysis."]}
           />
           <EducationElement

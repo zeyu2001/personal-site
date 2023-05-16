@@ -78,6 +78,20 @@ const Security = () => {
                         <ListGroup a="ul">
                             <li>
                                 <CveItem 
+                                    cveId="CVE-2023-30334"
+                                    cvss="6.1 (Medium)"
+                                    name="Cross Site Scripting to Remote Code Execution in AsmBB"
+                                    url="https://ctf.zeyu2001.com/2023/hxp-ctf/true_web_assembly"></CveItem>
+                            </li>
+                            <li>
+                                <CveItem 
+                                    cveId="CVE-2023-24720"
+                                    cvss="9.8 (Critical)"
+                                    name="Cross Site Scripting in ReadiumJS Cloud Reader"
+                                    url="https://infosec.zeyu2001.com/2023/readiumjs-cloud-reader-everybody-gets-an-xss"></CveItem>
+                            </li>
+                            <li>
+                                <CveItem 
                                     cveId="CVE-2022-25763, CVE-2022-28129"
                                     cvss="7.5 (High)"
                                     name="HTTP Request Smuggling in Apache Traffic Server"
@@ -181,19 +195,25 @@ const Security = () => {
                             </div>
                             <ListGroup a="ul">
                                 <li>
+                                    🇷🇴 HackTM CTF 2023 — 6th (Qualifiers), 🥈 (Finals)
+                                </li>
+                                <li>
+                                    GovTech Bug Bounty Programme 2022 (Individual) — 🥇 Top Bug Bounty Hunter
+                                </li>
+                                <li>
                                     MINDEF Bug Bounty Programme 2022 (Individual) — 🥇 Top Bug Bounty Hunter
                                 </li>
                                 <li>
-                                    Cyber SEA Games 2022 — 🥈
+                                    🇹🇭 Cyber SEA Games 2022 — 🥈
                                 </li>
                                 <li>
-                                    EPFL LakeCTF 2022 — 7th (Qualifiers), 6th (Finals)
+                                    🇨🇭 EPFL LakeCTF 2022 — 7th (Qualifiers), 6th (Finals)
                                 </li>
                                 <li>
-                                    Securinets CTF 2022 — 4th (Qualifiers), 4th (Finals)
+                                    🇹🇳 Securinets CTF 2022 — 4th (Qualifiers), 4th (Finals)
                                 </li>
                                 <li>
-                                    Midnight Sun CTF 2022 — 6th (Qualifiers), 7th (Finals)
+                                    🇸🇪 Midnight Sun CTF 2022 — 6th (Qualifiers), 7th (Finals)
                                 </li>
                                 <li>
                                     YaCTF 2022 (Individual) — 13th
