@@ -161,36 +161,6 @@ const Security = () => {
                     <Col xs={12} sm={6} md={6}>
                         <div className="my-5">
                             <div className="text-center">
-                                <h3 className='glow'>Singapore Competitions</h3>
-                            </div>
-                            <ListGroup a="ul">
-                                <li>
-                                    GovTech STACK The Flags 2022 — 🥉 (University Category)
-                                </li>
-                                <li>
-                                    DSTA BrainHack Cyber Defenders Discovery Camp 2022 — 🥉 (University Category)
-                                </li>
-                                <li>
-                                    NUS Grey Cat The Flag 2022 — 🥉 (Qualifiers), 4th (Finals)
-                                </li>
-                                <li>
-                                    CTF.SG CTF 2022 — 🥉
-                                </li>
-                                <li>
-                                    HTX Investigators' Challenge 2021 — 🥇, but it's a long story
-                                </li>
-                                <li>
-                                    CSIT The InfoSecurity Challenge 2021 — Top 30
-                                </li>
-                                <li>
-                                    DSTA BrainHack Cyber Defenders Discovery Camp 2021 — 🥉 (JC/IP Category)
-                                </li>
-                            </ListGroup>
-                        </div>
-                    </Col>
-                    <Col xs={12} sm={6} md={6}>
-                        <div className="my-5">
-                            <div className="text-center">
                                 <h3 className='glow'>International Competitions</h3>
                             </div>
                             <ListGroup a="ul">
@@ -198,7 +168,7 @@ const Security = () => {
                                     🇷🇴 HackTM CTF 2023 — 6th (Qualifiers), 🥈 (Finals)
                                 </li>
                                 <li>
-                                    GovTech Bug Bounty Programme 2022 (Individual) — 🥇 Top Bug Bounty Hunter
+                                    GovTech Government Bug Bounty Programme 2023 (Individual) — 🥇 Top Bug Bounty Hunter
                                 </li>
                                 <li>
                                     MINDEF Bug Bounty Programme 2022 (Individual) — 🥇 Top Bug Bounty Hunter
@@ -223,6 +193,36 @@ const Security = () => {
                                 </li>
                                 <li>
                                     Many more on the team's <a href="https://ctftime.org/team/151372" rel="noreferrer" target="_blank">CTFtime Profile</a>
+                                </li>
+                            </ListGroup>
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={6} md={6}>
+                        <div className="my-5">
+                            <div className="text-center">
+                                <h3 className='glow'>Singapore Competitions</h3>
+                            </div>
+                            <ListGroup a="ul">
+                                <li>
+                                    GovTech STACK The Flags 2022 — 🥉 (University Category)
+                                </li>
+                                <li>
+                                    DSTA BrainHack Cyber Defenders Discovery Camp 2022 — 🥉 (University Category)
+                                </li>
+                                <li>
+                                    NUS Grey Cat The Flag 2022 — 🥉 (Qualifiers), 4th (Finals)
+                                </li>
+                                <li>
+                                    CTF.SG CTF 2022 — 🥉
+                                </li>
+                                <li>
+                                    HTX Investigators' Challenge 2021 — 🥇, but it's a long story
+                                </li>
+                                <li>
+                                    CSIT The InfoSecurity Challenge 2021 — Top 30
+                                </li>
+                                <li>
+                                    DSTA BrainHack Cyber Defenders Discovery Camp 2021 — 🥉 (JC/IP Category)
                                 </li>
                             </ListGroup>
                         </div>
