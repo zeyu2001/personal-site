@@ -23,6 +23,26 @@ const Resources = () => {
                     <hr/>
                     <Row>
                         <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+                            <h3 className="glow">Singapore Cyber Olympians Programme</h3>
+                            <div className="my-2">
+                                <Row>
+                                    <p class="lead">DEFCON CTF Qualifiers 2023 - Web Challenges</p>
+                                    <p>
+                                        A walkthrough of the web challenges from the DEFCON CTF Qualifiers 2023,
+                                        for students part of the Singapore Cyber Olympians Programme.
+                                    </p>
+                                    <p>
+                                        <a href="/pdf/talks/sgco/DEFCON23.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
+                                    </p>
+                                </Row>
+                            </div>
+                        </Col>
+                        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+                            <Image src="/img/talks/DEFCON23.png" fluid width="90%" rounded/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
                             <h3 className="glow">BSides Singapore</h3>
                             <div className="my-2">
                                 <Row>
