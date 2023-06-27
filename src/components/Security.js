@@ -2,7 +2,7 @@ import { Row, Col, Image, Container, ListGroup } from 'react-bootstrap';
 
 const ImgCol = ({url, imgSrc, caption, size}) => {
     return (
-        <Col xs={12} sm={size} md={size} className="justify-content-center d-flex flex-column">
+        <Col xs="6" sm={size} md={size} className="justify-content-center d-flex flex-column">
             <a href={url} target="_blank" rel="noopener noreferrer">
                 <div className="img-col-div">
                     <Image 
@@ -54,15 +54,17 @@ const Security = () => {
                 </div>
                 <hr/>
                 <Row className="justify-content-center">
-                    <ImgCol size="3" url="https://www.government.nl/" imgSrc="./img/security/DutchGovt.png" caption="Government of the Netherlands"/>
-                    <ImgCol size="3" url="https://www.mindef.gov.sg/" imgSrc="./img/security/MINDEF.png" caption="Ministry of Defence Singapore"/>
-                    <ImgCol size="3" url="https://hackerone.com/" imgSrc="./img/security/HackerOne.png" caption="HackerOne"/>
-                    <ImgCol size="3" url="https://nodejs.org/en/" imgSrc="./img/security/Node.png" caption="Node.js"/>
+                    <ImgCol size="2" url="https://www.government.nl/" imgSrc="./img/security/DutchGovt.png" caption="Government of the Netherlands"/>
+                    <ImgCol size="2" url="https://www.mindef.gov.sg/" imgSrc="./img/security/MINDEF.png" caption="Ministry of Defence Singapore"/>
+                    <ImgCol size="2" url="https://www.tech.gov.sg/" imgSrc="./img/security/govtech.png" caption="GovTech Singapore"/>
+                    <ImgCol size="2" url="https://nodejs.org/en/" imgSrc="./img/security/Node.png" caption="Node.js"/>
+                    <ImgCol size="2" url="https://hackerone.com/" imgSrc="./img/security/HackerOne.png" caption="HackerOne"/>
+                    <ImgCol size="2" url="https://yahoo.com/" imgSrc="./img/security/yahoo.png" caption="Yahoo!"/>
                 </Row>
                 <Row className="justify-content-center">
-                    <ImgCol size="3" url="https://upchieve.org/" imgSrc="./img/security/UPchieve.png" caption="UPchieve"/>
-                    <ImgCol size="3" url="https://www.drugs.com/" imgSrc="./img/security/Drugs.png" caption="Drugs.com"/>
-                    <ImgCol size="3" url="https://www.cedars-sinai.org/" imgSrc="./img/security/Cedars-Sinai.png" caption="Cedars Sinai"/>
+                    <ImgCol size="2" url="https://upchieve.org/" imgSrc="./img/security/UPchieve.png" caption="UPchieve"/>
+                    <ImgCol size="2" url="https://www.drugs.com/" imgSrc="./img/security/Drugs.png" caption="Drugs.com"/>
+                    <ImgCol size="2" url="https://www.cedars-sinai.org/" imgSrc="./img/security/Cedars-Sinai.png" caption="Cedars Sinai"/>
                 </Row>
                 <Row className="justify-content-center my-5">
                     <p className="text-center">
@@ -76,6 +78,20 @@ const Security = () => {
                     <hr/>
                     <div className="my-5">
                         <ListGroup a="ul">
+                            <li>
+                                <CveItem 
+                                    cveId="CVE-2023-30334"
+                                    cvss="5.3 (Medium)"
+                                    name="Local JSON File Read in PlantUML"
+                                    url="https://nvd.nist.gov/vuln/detail/CVE-2023-3431"></CveItem>
+                            </li>
+                            <li>
+                                <CveItem 
+                                    cveId="CVE-2023-30334"
+                                    cvss="7.2 (High)"
+                                    name="URL Restriction Bypass to SSRF in PlantUML"
+                                    url="https://nvd.nist.gov/vuln/detail/CVE-2023-3432"></CveItem>
+                            </li>
                             <li>
                                 <CveItem 
                                     cveId="CVE-2023-30334"
@@ -189,7 +205,7 @@ const Security = () => {
                                     YaCTF 2022 (Individual) — 13th
                                 </li>
                                 <li>
-                                    Asian Cyber Security Challenge 2021 (Individual) — 🥉 in SG, 33rd Overall
+                                    Asian Cyber Security Challenge 2021 (Individual) — 🥉 in SG
                                 </li>
                                 <li>
                                     Many more on the team's <a href="https://ctftime.org/team/151372" rel="noreferrer" target="_blank">CTFtime Profile</a>
@@ -203,6 +219,9 @@ const Security = () => {
                                 <h3 className='glow'>Singapore Competitions</h3>
                             </div>
                             <ListGroup a="ul">
+                                <li>
+                                    DSTA BrainHack Cyber Defenders Discovery Camp 2023 — 🥉 (University Category)
+                                </li>
                                 <li>
                                     GovTech STACK The Flags 2022 — 🥉 (University Category)
                                 </li>
@@ -236,10 +255,10 @@ const Security = () => {
                             </div>
                             <ListGroup a="ul">
                                 <li>
-                                    CSIT The InfoSecurity Challenge 2022
+                                    SEETF 2022 - 2023
                                 </li>
                                 <li>
-                                    SEETF 2022
+                                    CSIT The InfoSecurity Challenge 2022
                                 </li>
                                 <li>
                                     Cyber League Singapore Major 1

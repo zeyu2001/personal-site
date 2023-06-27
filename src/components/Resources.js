@@ -23,10 +23,10 @@ const Resources = () => {
                     <hr/>
                     <Row>
                         <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
-                            <h3 className="glow">Singapore Cyber Olympians Programme</h3>
+                            <h3 className="glow">DEFCON CTF Qualifiers 2023 - Web Challenges</h3>
                             <div className="my-2">
                                 <Row>
-                                    <p class="lead">DEFCON CTF Qualifiers 2023 - Web Challenges</p>
+                                    <p class="lead">Singapore Cyber Olympians Programme</p>
                                     <p>
                                         A walkthrough of the web challenges from the DEFCON CTF Qualifiers 2023,
                                         for students part of the Singapore Cyber Olympians Programme.
@@ -43,10 +43,10 @@ const Resources = () => {
                     </Row>
                     <Row>
                         <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
-                            <h3 className="glow">BSides Singapore</h3>
+                            <h3 className="glow">HTTP Request Smuggling in the Multiverse of Parsing Flaws</h3>
                             <div className="my-2">
                                 <Row>
-                                    <p class="lead">HTTP Request Smuggling in the Multiverse of Parsing Flaws</p>
+                                    <p class="lead">BSides Singapore</p>
                                     <p>
                                         HTTP request smuggling is a vulnerability which arises when web servers and proxies interpret the length of a single HTTP request differently. 
                                         While basic techniques have been known since 2005, renewed research interest in HTTP request smuggling in recent years have uncovered many new bugs in popular web proxies and servers. 
@@ -65,16 +65,16 @@ const Resources = () => {
                     </Row>
                     <Row>
                         <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
-                            <h3 className="glow">Division Zero Bug Bounty Quarter</h3>
+                            <h3 className="glow">Learn Hacking Through CTF Competitions</h3>
                             <div className="my-2">
                                 <Row>
-                                    <p class="lead">Learn Hacking Through CTF Competitions</p>
+                                    <p class="lead">Division Zero Bug Bounty Quarter</p>
                                     <p>
                                         White hat hacking often requires a diverse set of skills and a vast repertoire of tricks that can aid one in exploitation. 
                                         A quick way to expand one's knowledge bank can be through Capture the Flag (CTF) competitions, but these can be intimidating to get started with and can often feel detached from real-world scenarios. 
                                         In this talk, I share what a year of playing CTF competitions and competing against top teams globally has taught me, how CTF challenges can realistically model real-world vulnerabilities, and how ethical hackers can create interesting and educational CTF challenges.
                                     </p>
-                                    <a href="/pdf/talks/div0/Learn-Hacking-Through-CTF-Competitions.pdf" target="_blank" rel="noopener noreferrer">Download</a>
+                                    <a href="/pdf/talks/div0/Learn-Hacking-Through-CTF-Competitions.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
                                 </Row>
                             </div>
                         </Col>
@@ -107,19 +107,19 @@ const Resources = () => {
                                             <p>
                                                 A gentle introduction to ethical hacking and web technologies.
                                             </p>
-                                            <a href="/pdf/talks/rvctf/01-Intro-To-Ethical-Hacking.pdf" target="_blank" rel="noopener noreferrer">Download</a>
+                                            <a href="/pdf/talks/rvctf/01-Intro-To-Ethical-Hacking.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="#link2">
                                             <p>
                                                 Why client side attacks matter and how to perform an XSS attack.
                                             </p>
-                                            <a href="/pdf/talks/rvctf/02-Cross-Site-Scripting.pdf" target="_blank" rel="noopener noreferrer">Download</a>
+                                            <a href="/pdf/talks/rvctf/02-Cross-Site-Scripting.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="#link3">
                                             <p>
                                                 Server-side request forgery, SQL injection, JWT attacks, and HTTP request smuggling.
                                             </p>
-                                            <a href="/pdf/talks/rvctf/03-Server-Side-Attacks.pdf" target="_blank" rel="noopener noreferrer">Download</a>
+                                            <a href="/pdf/talks/rvctf/03-Server-Side-Attacks.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
                                         </Tab.Pane>
                                     </Tab.Content>
                                     </Col>
