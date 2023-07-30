@@ -112,7 +112,7 @@ const About = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.csit.gov.sg/events/tisc/tisc-2022-summary/tisc-2022-community-challenge-creators" target="_blank" rel="noreferrer">
+                <a href="https://www.csit.gov.sg/events/tisc/past-editions-of-tisc/tisc-2022-community-challenge-creators" target="_blank" rel="noreferrer">
                   TISC 2022 community challenge creators | Centre for Strategic Infocomm Technologies
                 </a>
               </li>
