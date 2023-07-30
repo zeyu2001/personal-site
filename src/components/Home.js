@@ -25,8 +25,8 @@ const SocialLinks = () => {
 				<li className="list-group-item bg-transparent glow"><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/zhang-zeyu/"><i className="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
 				<li className="list-group-item bg-transparent glow"><a target="_blank" rel="noreferrer" href="https://twitter.com/zeyu2001"><i className="fab fa-twitter" aria-hidden="true"></i> Twitter</a></li>
 				<li className="list-group-item bg-transparent glow"><a target="_blank" rel="noreferrer" href="https://github.com/zeyu2001"><i className="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+				<li className="list-group-item bg-transparent glow"><a target="_blank" rel="noreferrer" href="https://infosec.zeyu2001.com/"><i className="far fa-terminal" aria-hidden="true"></i> Security</a></li>
 				<li className="list-group-item bg-transparent glow"><a target="_blank" rel="noreferrer" href="https://ctf.zeyu2001.com"><i className="fas fa-flag" aria-hidden="true"></i> CTFs</a></li>
-				<li className="list-group-item bg-transparent glow"><a target="_blank" rel="noreferrer" href="https://medium.com/@zhangzeyu2001"><i className="fab fa-medium" aria-hidden="true"></i> Medium</a></li>
 			</ul>
 		)
 	}
@@ -36,8 +36,8 @@ const SocialLinks = () => {
 				<li className="list-inline-item glow"><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/zhang-zeyu/"><i className="fab fa-linkedin" aria-hidden="true"></i><p className="hidden my-2">LinkedIn</p></a></li>
 				<li className="list-inline-item glow"><a target="_blank" rel="noreferrer" href="https://twitter.com/zeyu2001"><i className="fab fa-twitter" aria-hidden="true"></i><p className="hidden my-2">Twitter</p></a></li>
 				<li className="list-inline-item glow"><a target="_blank" rel="noreferrer" href="https://github.com/zeyu2001"><i className="fab fa-github" aria-hidden="true"></i><p className="hidden my-2">GitHub</p></a></li>
+				<li className="list-inline-item glow"><a target="_blank" rel="noreferrer" href="https://infosec.zeyu2001.com/"><i className="far fa-terminal" aria-hidden="true"></i><p className="hidden my-2">Security</p></a></li>
 				<li className="list-inline-item glow"><a target="_blank" rel="noreferrer" href="https://ctf.zeyu2001.com"><i className="fas fa-flag" aria-hidden="true"></i><p className="hidden my-2">CTFs</p></a></li>
-				<li className="list-inline-item glow"><a target="_blank" rel="noreferrer" href="https://medium.com/@zhangzeyu2001"><i className="fab fa-medium" aria-hidden="true"></i><p className="hidden my-2">Medium</p></a></li>
 			</ul>
 		)
 	}
