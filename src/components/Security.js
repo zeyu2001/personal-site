@@ -80,14 +80,14 @@ const Security = () => {
                         <ListGroup a="ul">
                             <li>
                                 <CveItem 
-                                    cveId="CVE-2023-30334"
+                                    cveId="CVE-2023-3431"
                                     cvss="5.3 (Medium)"
                                     name="Local JSON File Read in PlantUML"
                                     url="https://nvd.nist.gov/vuln/detail/CVE-2023-3431"></CveItem>
                             </li>
                             <li>
                                 <CveItem 
-                                    cveId="CVE-2023-30334"
+                                    cveId="CVE-2023-3432"
                                     cvss="7.2 (High)"
                                     name="URL Restriction Bypass to SSRF in PlantUML"
                                     url="https://nvd.nist.gov/vuln/detail/CVE-2023-3432"></CveItem>
