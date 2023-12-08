@@ -5,7 +5,7 @@ import React from "react"
  */
 class Page extends React.Component {
   componentDidMount() {
-    document.title = `${this.props.title} | Zhang Zeyu`
+    document.title = `${this.props.title} | Zeyu Zhang`
   }
   
   render() {
