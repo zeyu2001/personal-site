@@ -22,6 +22,29 @@ const Resources = () => {
                     <hr/>
                     <Row>
                         <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
+                            <h3 className="glow">XS-Leaks - Client-Side Attacks in a Post-XSS World</h3>
+                            <div className="my-2">
+                                <Row>
+                                    <p class="lead">BSides London 2023</p>
+                                    <p>
+                                        The web platform's openness and composability provide many benefits. 
+                                        Yet, the ability for websites to interact with each other has provided many opportunities for attacks that abuse the core principles of the web. 
+                                        With the evolution of web frameworks and browsers, Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF) have become increasingly rare. 
+                                        In response, researchers have found new ways to reveal sensitive information about users, giving rise to a new class of vulnerabilities known as XS-Leaks. 
+                                        In this talk, we will explore various XS-Leak techniques that exist in 2023, their mitigations, and some bypasses.
+                                    </p>
+                                    <p>
+                                        <a href="/pdf/talks/bsides/XS-Leaks-BSidesLondon2023.pdf" target="_blank" rel="noopener noreferrer">Slides</a>
+                                    </p>
+                                </Row>
+                            </div>
+                        </Col>
+                        <Col xs={12} sm={6} md={6} className="justify-content-center align-items-center d-flex flex-column my-5">
+                            <Image src="/img/talks/BSidesLondon.png" fluid width="90%" rounded/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} sm={6} md={6} className="justify-content-center d-flex flex-column my-5">
                             <h3 className="glow">DEFCON CTF Qualifiers 2023 - Web Challenges</h3>
                             <div className="my-2">
                                 <Row>
@@ -45,7 +68,7 @@ const Resources = () => {
                             <h3 className="glow">HTTP Request Smuggling in the Multiverse of Parsing Flaws</h3>
                             <div className="my-2">
                                 <Row>
-                                    <p class="lead">BSides Singapore</p>
+                                    <p class="lead">BSides Singapore 2022</p>
                                     <p>
                                         HTTP request smuggling is a vulnerability which arises when web servers and proxies interpret the length of a single HTTP request differently. 
                                         While basic techniques have been known since 2005, renewed research interest in HTTP request smuggling in recent years have uncovered many new bugs in popular web proxies and servers. 
