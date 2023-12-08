@@ -3,7 +3,6 @@ import { Row, Col, Image, Container, ListGroup, Tab } from 'react-bootstrap';
 const Resources = () => {
 
     return (
-        <>
         <Container>
             <div>
                 <Image
@@ -187,7 +186,6 @@ const Resources = () => {
                 </Container>
             </Container>
         </Container>
-        </>
     )
 }
 

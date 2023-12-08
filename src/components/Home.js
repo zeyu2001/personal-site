@@ -51,15 +51,13 @@ class Home extends React.Component {
 
 	render() {
 		return (
-			<>
-				<div className="container viewport">
+			<div className="container viewport">
 					<div className="align-center text-center">
-						<h1 id="title">Zhang Zeyu</h1>
+						<h1 id="title">Zeyu Zhang</h1>
 						<hr />
 						<SocialLinks />
 					</div>
 				</div>
-			</>
 		);
 	}
 }
